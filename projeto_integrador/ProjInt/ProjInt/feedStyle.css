@@ -1,0 +1,41 @@
+/* estilo da logo que e ficara presente durante o uso da pagina */
+.logoTB{
+    text-align: left;
+    display: inline-block;
+    width: 32%
+}
+
+/* estilo do placeHolder da caixa de pesquisa */
+.inpLabelTB {
+    color: #000000;
+    position: relative;
+    right: 78%;
+    top: 0px;
+    transition: color;
+    transform: translateY(-18px);
+    transition: all 1.2s ease ;
+}
+.pesquisar:hover .inpLabelTB{
+    top: -18px ;
+    color:#19f024;
+}
+.pesquisar:active{
+    top: -18px ;
+    color:#19f024;
+}
+.Btnpost{
+    font-size: larger;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    padding: 3%;
+    border-radius: 15px;
+    background-color: rgb(30, 221, 30);;
+}
+
+
+.inpPesc{
+    width: 75%;
+    padding: 4px;
+    margin: 2%;
+}
