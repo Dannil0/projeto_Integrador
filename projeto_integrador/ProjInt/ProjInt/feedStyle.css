@@ -1,8 +1,15 @@
 /* estilo da logo que e ficara presente durante o uso da pagina */
-.logoTB{
+.logomnu{
+    position: relative;
     text-align: left;
     display: inline-block;
-    width: 32%
+    width: 30%;
+    padding-left: 12px;
+    /* padding: 10px; */
+    top: 9px
+}
+.logoTB{
+    height: 45px;
 }
 
 /* estilo do placeHolder da caixa de pesquisa */
@@ -16,7 +23,7 @@
     transition: all 1.2s ease ;
 }
 .pesquisar:hover .inpLabelTB{
-    top: -18px ;
+    top: -19.5px ;
     color:#19f024;
 }
 .pesquisar:active{
@@ -39,3 +46,25 @@
     padding: 4px;
     margin: 2%;
 }
+
+html,
+body,
+main,.menu_lateral {
+    height: 100%;
+    ;
+}
+.menu_lateral{
+    background-color: aliceblue;
+    width:20%;
+}
+
+.btnNav{
+    display: block;
+    padding: 3px;
+    margin: 10%;
+    font-size: large;
+    border-radius: 8px;
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
+

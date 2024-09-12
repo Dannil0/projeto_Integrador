@@ -53,6 +53,8 @@ body {
     position: relative;
     background-color: black;
     color: white;
+    padding: 0px;
+    margin: 0px;
 }
 
 html,
