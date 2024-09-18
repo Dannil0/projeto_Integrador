@@ -133,3 +133,8 @@ h1{
     display: inline-block;
     width: 32%;
 }
+
+.containerLogo{
+    position: relative;
+    bottom: 26%;
+}
