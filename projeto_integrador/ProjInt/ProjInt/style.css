@@ -14,8 +14,15 @@
     width: 49%;
 }
 
-
-
+.cadUser{
+    left: 33%;
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 33%;
+    background-color: white;
+    padding: 1%;
+    font-size: larger;}
 .login {
 
     left: 60%;
@@ -59,7 +66,7 @@ body {
 
 html,
 body,
-main.login {
+main.login, main.cadUser{
     height: 98.76%;
     ;
 }
@@ -73,7 +80,7 @@ main.login {
     background-color: rgb(30, 221, 30);
 }
 
-#loginEntrar {
+.mnu {
     position: relative;
   
     width: 100%;
