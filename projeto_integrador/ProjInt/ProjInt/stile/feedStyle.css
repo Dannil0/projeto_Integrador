@@ -26,7 +26,10 @@
     top: -19.5px ;
     color:#22ffb6;
 }
-
+.pesquisar:active{
+    top: -18px ;
+    color: #22ffb6;
+}
 .Btnpost{
     font-size: larger;
     position: absolute;
