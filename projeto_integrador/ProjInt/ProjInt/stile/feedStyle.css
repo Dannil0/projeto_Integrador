@@ -24,12 +24,9 @@
 }
 .pesquisar:hover .inpLabelTB{
     top: -19.5px ;
-    color:#19f024;
+    color:#22ffb6;
 }
-.pesquisar:active{
-    top: -18px ;
-    color:#19f024;
-}
+
 .Btnpost{
     font-size: larger;
     position: absolute;
